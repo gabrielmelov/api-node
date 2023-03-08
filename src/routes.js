@@ -9,7 +9,7 @@ module.exports = [
   {
     endpoint: '/users/:id',
     method: 'GET',
-    handler: UserController.getUsersById,
+    handler: UserController.getUserById,
   },
   {
     endpoint: '/users',
